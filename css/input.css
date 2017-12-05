@@ -15,6 +15,7 @@
 *:before {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -26,25 +27,246 @@ img {
 
 [class*='column-'] {
   float: left;
-  padding: 1em;
-  width: 100%;
   min-height: 1px; }
+
+.no-style {
+  list-style: none; }
+
+.list-left {
+  float: left;
+  font-weight: bold; }
+
+.list-right {
+  float: right;
+  text-align: right;
+  font-size: 15px; }
+
+.text-mint {
+  color: #d9f5e8; }
+
+.bg-mint {
+  background-color: #d9f5e8; }
+
+.light-mint {
+  background-color: #f9fefc; }
+
+.dark-mint {
+  background-color: #b1ead0; }
+
+.mintmix-mint {
+  background-color: #d9f5e8; }
+
+.tealmix-mint {
+  background-color: #a0e6db; }
+
+.teal-mix-text-mint {
+  color: #a0e6db; }
+
+.goldmix-mint {
+  background-color: #e6e1a9; }
+
+.tomatomix-mint {
+  background-color: #e6c2b0; }
+
+.text-teal {
+  color: #37cbc2; }
+
+.bg-teal {
+  background-color: #37cbc2; }
+
+.light-teal {
+  background-color: #57d3cc; }
+
+.dark-teal {
+  background-color: #2ba49d; }
+
+.mintmix-teal {
+  background-color: #70dacf; }
+
+.tealmix-teal {
+  background-color: #37cbc2; }
+
+.teal-mix-text-teal {
+  color: #37cbc2; }
+
+.goldmix-teal {
+  background-color: #7dc590; }
+
+.tomatomix-teal {
+  background-color: #7da797; }
+
+.text-gold {
+  color: #ffbb33; }
+
+.bg-gold {
+  background-color: #ffbb33; }
+
+.light-gold {
+  background-color: #ffc95c; }
+
+.dark-gold {
+  background-color: #ffaa00; }
+
+.mintmix-gold {
+  background-color: #f2cf72; }
+
+.tealmix-gold {
+  background-color: #b9c165; }
+
+.teal-mix-text-gold {
+  color: #b9c165; }
+
+.goldmix-gold {
+  background-color: #ffbb33; }
+
+.tomatomix-gold {
+  background-color: #ff9c3a; }
+
+.text-tomato {
+  color: tomato; }
+
+.bg-tomato {
+  background-color: tomato; }
+
+.light-tomato {
+  background-color: #ff8670; }
+
+.dark-tomato {
+  background-color: #ff3814; }
+
+.mintmix-tomato {
+  background-color: #f2967f; }
+
+.tealmix-tomato {
+  background-color: #b98772; }
+
+.teal-mix-text-tomato {
+  color: #b98772; }
+
+.goldmix-tomato {
+  background-color: #ff8240; }
+
+.tomatomix-tomato {
+  background-color: tomato; }
+
+.column-3 .column-4 {
+  margin: 0; }
+
+.text .column-3 {
+  height: auto; }
+
+.column-3 p {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center; }
+
+.huge {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+  font-weight: 200; }
+
+.huge-sub {
+  font-family: 'Open Sans', sans-serif; }
+
+.huge2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 4em;
+  font-weight: 200; }
+
+.huge-sub2 {
+  font-family: 'Bree Serif', serif; }
+
+.column-11 h1, .column-11 h2, .column-11 h3 {
+  margin-top: auto; }
+
+h3 {
+  margin-top: 10px; }
+
+h2 {
+  margin-top: 20px; }
+
+h1 {
+  margin-top: 20px; }
 
 @media only screen and (min-width: 30em) {
   .wrapper {
-    width: 95%;
-    max-width: 65em; }
+    width: 100%;
+    max-width: 65em;
+    margin: 0 auto; }
 
   .column-1 {
-    width: 25%; }
+    width: 8.0833333333%;
+    margin: 3px;
+    height: 8em; }
 
   .column-2 {
-    width: 50%; }
+    width: 16.1666666667%;
+    margin: 3px;
+    height: 8em; }
 
   .column-3 {
-    width: 75%; }
+    width: 24.25%;
+    margin: 3px;
+    height: 8em; }
 
   .column-4 {
-    width: 100%; } }
+    width: 32.3333333333%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-5 {
+    width: 40.4166666667%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-6 {
+    width: 48.5%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-7 {
+    width: 56.5833333333%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-8 {
+    width: 64.6666666667%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-9 {
+    width: 72.75%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-10 {
+    width: 80.8333333333%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-11 {
+    width: 88.9166666667%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-12 {
+    width: 97%;
+    margin: 3px;
+    height: 8em; }
+
+  .column-1, .column-11 {
+    height: auto; }
+
+  .column-11 p {
+    font-size: .2em; }
+
+  .column-1 p {
+    font-size: .75em; }
+
+  hr {
+    margin: 10px auto; }
+
+  .mix .column-3 {
+    height: 30px; } }
 
 /*# sourceMappingURL=input.css.map */
